@@ -1,0 +1,9 @@
+<header class="header">
+  <div class="logo">🛒 TechShop</div>
+
+  <div class="user-actions">
+    <span *ngIf="auth.isLoggedIn()">Bonjour, {{ auth.getUser()?.name }}</span>
+    <button *ngIf="auth.isLoggedIn()" (click)="logout()">Logout</button>
+    <a *ngIf="!auth.isLoggedIn()" routerLink="/welcome">Login / Register</a>
+  </div>
+</header>

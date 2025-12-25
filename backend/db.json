@@ -1,0 +1,120 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "haniya",
+      "email": "haniya@gmail.com",
+      "password": "Test@1234"
+    },
+    {
+      "id": "76",
+      "name": "ahmad",
+      "email": "ahmad@test.com",
+      "password": "1234567890"
+    },
+    {
+      "id": "b4",
+      "name": "saraa",
+      "email": "sara@gmail.com",
+      "password": "lara1234"
+    },
+    {
+      "id": "1766417596441",
+      "email": "testuser@gmail.com",
+      "name": "TestUser",
+      "password": "12345678"
+    },
+    {
+      "id": "1766495960979",
+      "name": "simahdi",
+      "email": "simahdi@gmail.com",
+      "password": "46786902847562"
+    },
+    {
+      "id": "1766535153461",
+      "name": "soulaymae",
+      "email": "soulaymae@gmail.com",
+      "password": "785438954839548"
+    },
+    {
+      "id": "1766575538388",
+      "name": "ytwetyewety",
+      "email": "ytwetyewety@gmail.com",
+      "password": "98789785787567"
+    },
+    {
+      "id": "1766575879199",
+      "name": "yywedfyry",
+      "email": "yywedfyry@gmail.com",
+      "password": "8748845765865"
+    },
+    {
+      "id": "1766575931676",
+      "name": "emma",
+      "email": "emma@example.com",
+      "password": "emma1237878787"
+    },
+    {
+      "id": "1766610323124",
+      "name": "emkkkkma",
+      "email": "emkkkkma@example.com",
+      "password": "7897898237878787"
+    },
+    {
+      "id": "1766613238194",
+      "name": "machina",
+      "email": "machina@gmail.com",
+      "password": "577ryy8wty84"
+    },
+    {
+      "id": "1766613280491",
+      "name": "sofiadehbi",
+      "email": "sofiadehbi@gmail.com",
+      "password": "577ryy8wty84587876"
+    },
+    {
+      "id": "1766616669345",
+      "name": "haniyaelgwizi",
+      "email": "haniyaelgwizi@gmail.com",
+      "password": "84778857856785"
+    }
+  ],
+  "products": [
+    {
+      "id": "2",
+      "name": "iPhone 14",
+      "price": 15000,
+      "category": "tech",
+      "image": "iPhone14.png",
+      "stock": 10,
+      "description": "Smartphone Apple avec appareil photo avancé et processeur rapide"
+    },
+    {
+      "id": "3",
+      "name": "IPad",
+      "price": 5500,
+      "category": "tablet",
+      "image": "tablette.png",
+      "stock": 7,
+      "description": "La tablette Apple est idéale pour les études, le travail et les loisirs."
+    },
+    {
+      "id": "4",
+      "name": "Smart TV",
+      "price": 12000,
+      "category": "tv",
+      "image": "tv.png",
+      "stock": 3,
+      "description": "Téléviseur intelligent haute résolution avec fonctionnalités intelligentes"
+    },
+    {
+      "id": "5",
+      "name": "Apple Watch",
+      "price": 7000,
+      "category": "watch",
+      "image": "Apple watch.jpg",
+      "stock": 12,
+      "description": "Apple Watch avec suivi de la santé et de la forme physique"
+    }
+  ]
+}

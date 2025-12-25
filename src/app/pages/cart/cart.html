@@ -1,0 +1,45 @@
+<div class="cart-page">
+
+  <h1>Votre panier</h1>
+  <p class="success" *ngIf="successMessage">{{ successMessage }}</p>
+
+  <div *ngIf="cart.length === 0" class="empty">
+     Le panier vide 
+  </div>
+
+  <div *ngFor="let item of cart" class="cart-card">
+
+    <div class="left">
+      <h3>{{ item.product.name }}</h3>
+      <p>Quantité : {{ item.quantity }}</p>
+      <p>Prix unitaire : {{ item.product.price }} DH</p>
+    </div>
+
+    <div class="right">
+      <div class="item-total">
+        {{ item.product.price * item.quantity }} DH
+      </div>
+
+      <div class="actions">
+        <button (click)="decrease(item.product.id)">−</button>
+        <button (click)="add(item.product)">+</button>
+        <button class="remove" (click)="remove(item.product.id)">✕</button>
+      </div>
+    </div>
+
+  </div>
+
+  <div *ngIf="cart.length > 0" class="summary">
+    <h2>Total : <span>{{ getTotal() }} DH</span></h2>
+
+    <div class="footer-buttons">
+      <button class="btn-primary" routerLink="/home">
+        Continuer vos achats
+      </button>
+      <button class="btn-primary" (click)="clear()">
+        Vider le panier
+      </button>
+    </div>
+  </div>
+
+</div>

@@ -1,0 +1,42 @@
+<div *ngIf="product" class="details-page">
+  <div class="card">
+
+    <img
+      [src]="'/assets/images/' + product.image"
+      [alt]="product.name"
+      class="image"
+    />
+
+    <h2>{{ product.name }}</h2>
+    <p>Category: {{ product.category }}</p>
+    <p>Price: {{ product.price }} DH</p>
+
+    <p class="desc">{{ product.description }}</p>
+
+    <p class="stock">
+      Stock disponible :
+      <span [class.out]="product.stock === 0">
+        {{ product.stock }}
+      </span>
+    </p>
+
+    <div class="qty">
+      <button (click)="decrease()">−</button>
+      <span>{{ quantity }}</span>
+      <button (click)="increase()" [disabled]="quantity >= product.stock">+</button>
+    </div>
+
+    <p>Total: {{ total() }} DH</p>
+
+    <button
+      class="add"
+      (click)="addToCart()"
+      [disabled]="product.stock === 0"
+    >
+      Ajouter au panier
+    </button>
+
+    <button class="back" (click)="back()">retour</button>
+
+  </div>
+</div>

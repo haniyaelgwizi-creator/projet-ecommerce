@@ -1,0 +1,130 @@
+.details-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  background: #f5f5f5;
+  color: #333;
+  font-style: italic;
+}
+
+/* CARD */
+.card {
+  background: white;
+  border-radius: 10px;
+  padding: 30px;
+  width: 420px;
+  box-shadow: 0 4px 12px rgba(0, 120, 255, 0.15);
+  border: 1px solid #bcdcff;
+  text-align: center;
+}
+
+/* IMAGE */
+.image {
+  width: 220px;
+  height: 220px;
+  object-fit: contain;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+/* TITLE */
+.card h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #007bff; /* bleu */
+}
+
+/* TEXT */
+.card p {
+  margin: 6px 0;
+  opacity: 0.9;
+}
+
+/* QUANTITY */
+.qty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.qty button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  background: #e6f0ff;
+  color: #007bff;
+  transition: 0.2s;
+}
+
+.qty button:hover {
+  background: #007bff;
+  color: white;
+}
+
+.qty span {
+  font-size: 16px;
+  min-width: 30px;
+  color: #007bff;
+}
+
+/* ADD TO CART */
+.add {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  border-radius: 20px;
+  border: none;
+  background: linear-gradient(90deg, #007bff, #4da3ff);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.add:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 120, 255, 0.5);
+}
+
+/* BACK */
+.back {
+  margin-top: 12px;
+  background: transparent;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.back:hover {
+  text-decoration: underline;
+}
+
+/* DESCRIPTION */
+.desc {
+  opacity: 0.9;
+  margin: 10px 0;
+  text-align: center;
+}
+
+/* STOCK */
+.stock {
+  margin: 8px 0;
+}
+
+.stock span {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.stock span.out {
+  color: red;
+}
