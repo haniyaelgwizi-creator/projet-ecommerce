@@ -77,6 +77,12 @@
       "name": "haniyaelgwizi",
       "email": "haniyaelgwizi@gmail.com",
       "password": "84778857856785"
+    },
+    {
+      "id": "1766626713556",
+      "name": "user",
+      "email": "user@example.com",
+      "password": "password123"
     }
   ],
   "products": [
